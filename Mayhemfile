@@ -4,7 +4,7 @@ testsuite:
   - file://tests/test-progs/hello/bin/x86/linux/hello
 
 cmds:
-  - cmd: /repo/build/X86/gem5.opt /repo/configs/example/se.py --cmd=/test
+  - cmd: /gem5.opt /repo/configs/example/se.py --cmd=/test
     filepath: /test
     max_length: 1000000
     env:
